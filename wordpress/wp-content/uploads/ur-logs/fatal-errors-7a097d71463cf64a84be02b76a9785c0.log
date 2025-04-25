@@ -1,0 +1,48 @@
+2025-04-13T15:56:24+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "force_redirect_after_ajax_login" not found or invalid function name in C:\xampp\htdocs\WPSite\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\WPSite\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\WPSite\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\WPSite\wordpress\wp-includes\general-template.php(3080): do_action('wp_footer')
+#3 C:\xampp\htdocs\WPSite\wordpress\wp-includes\template-canvas.php(25): wp_footer()
+#4 C:\xampp\htdocs\WPSite\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\WPSite\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\WPSite\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\WPSite\wordpress\wp-includes\class-wp-hook.php on line 324
+
+2025-04-13T15:56:31+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "force_redirect_after_ajax_login" not found or invalid function name in C:\xampp\htdocs\WPSite\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\WPSite\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\WPSite\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\WPSite\wordpress\wp-includes\general-template.php(3080): do_action('wp_footer')
+#3 C:\xampp\htdocs\WPSite\wordpress\wp-includes\template-canvas.php(25): wp_footer()
+#4 C:\xampp\htdocs\WPSite\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\WPSite\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\WPSite\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\WPSite\wordpress\wp-includes\class-wp-hook.php on line 324
+
+2025-04-13T15:56:35+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "force_redirect_after_ajax_login" not found or invalid function name in C:\xampp\htdocs\WPSite\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\WPSite\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\WPSite\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\WPSite\wordpress\wp-includes\general-template.php(3080): do_action('wp_footer')
+#3 C:\xampp\htdocs\WPSite\wordpress\wp-includes\template-canvas.php(25): wp_footer()
+#4 C:\xampp\htdocs\WPSite\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\WPSite\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\WPSite\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\WPSite\wordpress\wp-includes\class-wp-hook.php on line 324
+
+2025-04-13T15:57:46+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "force_redirect_after_ajax_login" not found or invalid function name in C:\xampp\htdocs\WPSite\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\WPSite\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\WPSite\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\WPSite\wordpress\wp-includes\general-template.php(3080): do_action('wp_footer')
+#3 C:\xampp\htdocs\WPSite\wordpress\wp-includes\template-canvas.php(25): wp_footer()
+#4 C:\xampp\htdocs\WPSite\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\WPSite\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\WPSite\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\WPSite\wordpress\wp-includes\class-wp-hook.php on line 324
+

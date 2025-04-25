@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/day",
+  "version": "0.1.0",
+  "title": "Day List",
+  "category": "widgets",
+  "icon": "calendar-alt",
+  "description": "Displays list of emloyees working in a day",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "day",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./style-view.css",
+  "style": "file:./style-view.css",
+  "viewScript": "file:./view.js"
+}

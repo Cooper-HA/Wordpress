@@ -1,0 +1,49 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/employee-list/style.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************/
+.employee-list {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background-color: #f4f8fc;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.employee-list h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+.employee-list .draggable-employee {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.75rem;
+  cursor: grab;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+.employee-list .draggable-employee:hover {
+  background-color: #eef6fb;
+}
+.employee-list .draggable-employee:active {
+  cursor: grabbing;
+  transform: scale(0.98);
+}
+.employee-list .employee-cook {
+  border-right: 6px solid red;
+}
+.employee-list .employee-dish {
+  border-right: 6px solid yellow;
+}
+.employee-list .employee-server {
+  border-right: 6px solid green;
+}
+.employee-list .employee-bus {
+  border-right: 6px solid blue;
+}
+.employee-list .employee-rm {
+  border-right: 6px solid purple;
+}

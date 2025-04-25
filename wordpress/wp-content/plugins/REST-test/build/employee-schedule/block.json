@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/employee-schedule",
+  "version": "0.1.0",
+  "title": "Employee-Schedule",
+  "category": "widgets",
+  "icon": "calendar-alt",
+  "description": "shows list of employee's shifts",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "employee-schedule",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./style-view.css",
+  "style": "file:./style-view.css",
+  "viewScript": "file:./view.js"
+}

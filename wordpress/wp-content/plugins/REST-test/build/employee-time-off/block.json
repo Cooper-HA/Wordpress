@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/employee-time-off",
+  "version": "0.1.0",
+  "title": "Employee Time Off",
+  "category": "widgets",
+  "icon": "calendar-alt",
+  "description": "Displays time off requests and allows for submital of new ones",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "employee-time-off",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./style-view.css",
+  "style": "file:./style-view.css",
+  "viewScript": "file:./view.js"
+}

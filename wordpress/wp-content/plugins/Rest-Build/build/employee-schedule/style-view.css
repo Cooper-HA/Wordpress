@@ -1,0 +1,79 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/employee-schedule/style.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+.time-off-bloc {
+  border: 1px solid #ccc;
+  padding: 16px;
+}
+.time-off-bloc li {
+  margin-bottom: 10px;
+}
+.time-off-bloc button {
+  margin-right: 10px;
+  color: orange;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  padding: 16px;
+}
+
+.calendar-cell {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 8px;
+  min-height: 100px;
+  font-size: 0.9rem;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.calendar-cell strong {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.calendar-cell .cell-content {
+  flex: 1;
+  font-size: 0.85em;
+}
+
+.calendar-cell.empty {
+  background: transparent;
+  border: none;
+}
+
+.Cook {
+  background-color: red;
+  color: white;
+}
+
+.Dish {
+  background-color: yellow;
+}
+
+.calendar-cell-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.calendar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.calendar-nav button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.calendar-nav h2 {
+  margin: 0;
+}
+
+/*# sourceMappingURL=style-view.css.map*/

@@ -1,0 +1,54 @@
+.employee-list {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-color: #f4f8fc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    h3 {
+        font-size: 1.5rem;
+        text-align: center;
+        color: #2c3e50;
+        margin-bottom: 1rem;
+    }
+
+    .draggable-employee {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 0.75rem 1rem;
+        border-radius: 0.5rem;
+        margin-bottom: 0.75rem;
+        cursor: grab;
+        transition: background-color 0.2s ease, transform 0.1s ease;
+
+        &:hover {
+            background-color: #eef6fb;
+        }
+
+        &:active {
+            cursor: grabbing;
+            transform: scale(0.98);
+        }
+    }
+
+    // Role-based left border styling
+    .employee-cook {
+        border-left: 6px solid red; 
+    }
+
+    .employee-dish {
+        border-left: 6px solid yellow; 
+    }
+    .employee-server {
+        border-left: 6px solid green; 
+    }    
+    .employee-bus {
+        border-left: 6px solid blue; 
+    }
+    .employee-rm {
+        border-left: 6px solid purple; 
+    }
+
+}

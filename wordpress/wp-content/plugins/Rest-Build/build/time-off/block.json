@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/time-off",
+  "version": "0.1.0",
+  "title": "Time Off Requests",
+  "category": "widgets",
+  "icon": "calendar-alt",
+  "description": "Displays time off requests and allows approval/denial.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "time-off",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./style-view.css",
+  "style": "file:./style-view.css",
+  "viewScript": "file:./view.js"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/employee-list",
+  "version": "0.1.0",
+  "title": "Employee List",
+  "category": "widgets",
+  "icon": "id",
+  "description": "Display Employee list with drag features.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "employee-list",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./style-view.css",
+  "style": "file:./style-view.css",
+  "viewScript": "file:./view.js"
+}

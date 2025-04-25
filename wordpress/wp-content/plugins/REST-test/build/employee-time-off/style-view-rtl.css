@@ -1,0 +1,68 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/employee-time-off/style.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+.timeoff-block {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fafafa;
+  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.05);
+  font-family: sans-serif;
+}
+.timeoff-block h3, .timeoff-block h4 {
+  margin-top: 0;
+}
+.timeoff-block ul {
+  list-style-type: none;
+  padding-right: 0;
+  margin-bottom: 20px;
+}
+.timeoff-block ul li {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+.timeoff-block ul li strong {
+  display: inline-block;
+  margin-bottom: 4px;
+  color: #333;
+}
+.timeoff-block ul li em {
+  font-style: italic;
+}
+.timeoff-block form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.timeoff-block form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.95rem;
+  color: #444;
+}
+.timeoff-block form label input {
+  margin-top: 4px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+.timeoff-block form button {
+  align-self: flex-start;
+  padding: 8px 16px;
+  background-color: #007cba;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+.timeoff-block form button:hover {
+  background-color: #006ba1;
+}
